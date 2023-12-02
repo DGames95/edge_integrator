@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+}
+
+#taskDisplay {
+    margin-bottom: 20px;
+}

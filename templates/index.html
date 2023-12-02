@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edge Computing: Integration</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <h1>Edge Integrator</h1>
+    <div id="taskDisplay">No current task</div>
+    <button onclick="requestNewTask()">Get New Task</button><br>
+    <button onclick="sendResultToServer()">Compute and Send</button><br>
+    <button onclick="requestNewTask()">GetTask (if none loaded)</button><br>
+    <button onclick="cancelTask()">Cancel current task</button><br>
+    <br>
+    <a href="/result">Go to Result</a>
+
+</body>
+</html>
